@@ -1,0 +1,256 @@
+/* ! Start Global CSS */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f4f7fb;
+  font-family: system-ui;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
+
+.clear-fix {
+  clear: both;
+}
+/* ! End Global CSS */
+
+/* ! Start header Section */
+
+#header .container {
+  background-color: #18487b;
+  border-radius: 30px;
+  padding: 55px;
+  color: white;
+  margin-block: 35px;
+  text-align: center;
+}
+
+#header h1 {
+  font-size: 47px;
+  margin-bottom: 10px;
+}
+
+#header .header-content p {
+  margin-bottom: 40px;
+  color: #b9dcff;
+  font-size: 20px;
+}
+
+#header .header-content a {
+  text-decoration: none;
+  margin-inline: 4px;
+  padding: 12px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 30px;
+}
+
+/* ! End header Section */
+
+/* ! Start About ME Section */
+
+#AboutMe .container {
+  background-color: white;
+  border-radius: 30px;
+  padding-inline: 40px;
+  padding-block: 25px;
+  margin-bottom: 35px;
+  font-size: 20px;
+}
+
+#AboutMe .about-me-title {
+  color: #06366d;
+  margin-bottom: 30px;
+  border-bottom: #d8ecff 2px solid;
+}
+
+#AboutMe .about-me-content .about-me-card {
+  width: 15%;
+  float: left;
+}
+
+#AboutMe img {
+  border-radius: 50%;
+}
+
+#AboutMe .about-me-content .about-me-info {
+  width: 85%;
+  float: left;
+  padding-left: 30px;
+}
+
+#AboutMe .about-me-content .about-me-info span {
+  color: #106fb8;
+}
+
+#AboutMe button {
+  background-color: #0b65ad;
+  padding-inline: 25px;
+  padding-block: 15px;
+  border-radius: 10px;
+  color: white;
+  border: 1px transparent solid;
+  font-size: 15px;
+}
+
+/* ! End About ME Section */
+
+/* * Start My Skills Section */
+#MySkills .container {
+  background-color: white;
+  border-radius: 30px;
+  padding: 40px;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+#MySkills .my-skills-title {
+  color: #0b3d73;
+  border-bottom: #d8ecff 2px solid;
+}
+
+#MySkills .item {
+  width: 25%;
+  float: left;
+}
+
+#MySkills .inner {
+  background-color: rgba(173, 216, 230, 0.274);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  border: solid 1px #dfecfd;
+}
+
+#MySkills .item h3 {
+  color: #28578b;
+}
+
+#MySkills .item p {
+  width: 187px;
+}
+/* * End  MySkills Section */
+
+/* ! Start Experience-part1 Section */
+
+#Experience .first-part {
+  background-color: rgba(173, 216, 230, 0.274);
+  border-radius: 20px;
+  padding: 30px;
+  margin-block: 25px;
+  border-left: 5px #0b64adb9 solid;
+}
+
+#Experience .experience-title {
+  color: #083d73;
+  border-bottom: #d8ecff 2px solid;
+}
+
+#Experience .first-part .first-part-card {
+  width: 8%;
+  border: solid 1px #dae9fe;
+  border-radius: 20px;
+  padding: 12px;
+  float: left;
+  margin-right: 50px;
+}
+
+#Experience .first-part .first-part-info {
+  float: left;
+}
+
+#Experience span {
+  color: #0051ae;
+}
+
+#Experience .container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+
+/* ! End Experience-part2 Section */
+
+/* ! start Experience-part1 Section */
+
+#Experience .second-part {
+  background-color: rgba(173, 216, 230, 0.274);
+  border-radius: 20px;
+  padding: 30px;
+  margin-block: 25px;
+
+  border-left: 5px #0b64adb9 solid;
+}
+
+#Experience .second-part .second-part-card {
+  width: 8%;
+  border: solid 1px #dae9fe;
+  border-radius: 20px;
+  padding: 12px;
+  float: left;
+  margin-right: 50px;
+}
+
+#Experience .second-part .second-part-info {
+  float: left;
+}
+
+/* ! End Experience-part2 Section */
+
+/* * Start Contact Section */
+
+#Contact .container {
+  background-color: #18487b;
+  border-radius: 30px;
+  padding-inline: 30px;
+  padding-top: 15px;
+  padding-bottom: 60px;
+  margin-block: 20px;
+  color: white;
+}
+
+#Contact .contact-title {
+  border-bottom: #d8ecff23 2px solid;
+}
+
+#Contact p {
+  margin-bottom: 30px;
+}
+
+#Contact a {
+  text-decoration: none;
+  margin-inline: 5px;
+  padding: 12px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+}
+
+/* * End Contact Section */
+
+/* ! Start Footer Section */
+
+#Footer .container {
+  background-color: #071a35;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  padding: 25px;
+  margin-block: 25px;
+}
+
+#Footer span {
+  color: #7bc8ff;
+}
+
+/* ! End footer Section */
